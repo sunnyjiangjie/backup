@@ -1,5 +1,6 @@
 ---
 layout: post
+title: First Blog
 category : lessons
 tagline: "HELLO tagline"
 tags : [intro, jekyll, journey]

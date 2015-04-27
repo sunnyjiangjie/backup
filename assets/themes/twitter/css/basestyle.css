@@ -77,7 +77,7 @@ h4 {
 }
 
 a {
-  color: blue;
+  color: rgb(244,49,19);
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
