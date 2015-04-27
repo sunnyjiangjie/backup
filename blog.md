@@ -27,10 +27,3 @@ tagline: a packaging engineer
 
 
 
-<ul>
-	{% for post in site.posts %}
-		<li>{{ site.time | data_to_string }} <h3><a href="{{ site.baseurl }}{{post.url }}">{{post.title}}</a></h3></li>
-	{% endfor %}
-
-
-</ul>

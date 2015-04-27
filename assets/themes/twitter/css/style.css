@@ -52,10 +52,12 @@ body {
 	float:left;
 }
 .tag_box a {
+	font-family: Arial;
+	font-size:5px;
 	padding: 3px 6px;
-	margin: 2px;
-	background: #eee;
-	color:#005F6B;
+	margin: 3px;
+	background: rgb(51,122,183); /*#eee*/
+	color:white;/*#005F6B*/
 	border-radius: 3px;
 	text-decoration:none;
 }

@@ -19,7 +19,7 @@ tags : [intro, jekyll, journey]
 
 &emsp;&emsp;这个时候，我们的GitHub文件夹下就多了一个myRepoForBlog文件夹，进入文件夹目录，对仓库进行初始化，如果我们之前没有勾选创建README，则要先创建README.md文件，不然上传文件会报错。如果在第一步就勾选过了README.MD，则可以直接进入[第四步]
 
-```
+```  
 git init
 
 touch README.md
@@ -38,7 +38,7 @@ git push origin master
 
 创建完README.md后，就可以push了，代码类似。
 
-```
+```  
 git add .
 
 git commit -m 'first_commit'
