@@ -12,7 +12,7 @@ tagline: a packaging engineer
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-      <h2>{{ post.title }}</h2>   
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>   
 	  <div class="date">{{ site.time | date_to_long_string}}</div>
       <div class="entry">
         {{ post.excerpt }}
@@ -20,7 +20,8 @@ tagline: a packaging engineer
 
       <strong><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></strong>
     </article>
-	
+	<br />
+	<br />
   {% endfor %}
 </div>
 </ul>
